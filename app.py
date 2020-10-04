@@ -2,6 +2,7 @@
 
 from flask import Flask, request, jsonify, render_template
 from models import db, connect_db, Resource
+from flask_cors import CORS
 
 import os
 
