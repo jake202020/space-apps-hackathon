@@ -8,8 +8,7 @@ import os
 app = Flask(__name__)
 
 app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get("DATABASE_URL", 'postgresql:///space_db')
-app.config['SECRET_KEY'] = os.environ.get['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-os.environ.get("SECRET_KEY", SECRET_KEY)
+app.config['SECRET_KEY'] = os.environ.get("SECRET_KEY", SECRET_KEY)
 
 connect_db(app)
 
