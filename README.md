@@ -10,5 +10,5 @@ We ultimately delivered an application that displays a list of resources that us
 - Paginate results from database
 
 ## Tech-stack:
-Backend: Flask server and postgreSQL database via SQLalchemy
+Backend: Flask server and postgreSQL database via SQLalchemy  
 Frontend: React accessing the Flask API for responses
